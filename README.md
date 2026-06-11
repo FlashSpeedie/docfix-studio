@@ -1,17 +1,3 @@
----
-
-title: DocFix Studio
-emoji: 📄
-colorFrom: blue
-colorTo: gray
-sdk: streamlit
-sdk_version: "1.58.0"
-python_version: "3.11"
-app_file: streamlit_app.py
-pinned: false
-license: mit
----
-
 # DocFix Studio
 
 Convert messy documents into clean **Markdown**, **plain text**, **structured JSON**, and **RAG-ready chunks** — no paid API key required.
