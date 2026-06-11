@@ -10,7 +10,7 @@ python_version: "3.11"
 app_file: streamlit_app.py
 pinned: false
 license: mit
-------------
+---
 
 # DocFix Studio
 
