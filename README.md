@@ -1,8 +1,46 @@
 # DocFix Studio
 
-Turn messy documents into clean Markdown, plain text, structured JSON, and RAG-ready chunks.
+Convert messy documents into clean Markdown, JSON, and RAG-ready chunks — no paid API key required.
+
+If this project helps you, consider starring the repo to support open-source development.
 
 DocFix Studio is an open-source document cleanup and RAG-prep tool powered by Docling. It helps developers, students, educators, and AI builders prepare documents before using them in chatbots, search systems, study tools, school assistants, and retrieval-augmented generation pipelines.
+
+## Quick start
+
+```bash
+git clone https://github.com/FlashSpeedie/docfix-studio.git
+cd docfix-studio
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501).
+
+## Supported formats
+
+| Format | Extension | Notes |
+|--------|-----------|-------|
+| PDF | `.pdf` | Text and scanned pages |
+| Word | `.docx` | Modern Word documents |
+| PowerPoint | `.pptx` | Slide text and notes |
+| Images | `.png`, `.jpg`, `.jpeg` | OCR support |
+| HTML | `.html`, `.htm` | Web pages |
+| Markdown | `.md` | Already clean |
+| Text | `.txt` | Plain text |
+
+## Demo coming soon
+
+A live demo is planned for a future release. Watch the repo for updates.
+
+## Known limitations
+
+* Scanned PDFs may require OCR to extract text reliably.
+* Very large files may take longer to process.
+* Conversion quality depends on document structure and source formatting.
 
 ## Features
 
@@ -36,24 +74,6 @@ Most AI document chatbots fail when documents are messy, scanned, badly formatte
 * Python
 * Streamlit
 * Docling
-
-## Installation on Windows
-
-```bash
-git clone https://github.com/YOUR_USERNAME/docfix-studio.git
-cd docfix-studio
-python -m venv .venv
-.venv\Scripts\activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Then open:
-
-```text
-http://localhost:8501
-```
 
 ## Usage
 

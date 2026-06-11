@@ -4,6 +4,8 @@ Add sample documents here for testing.
 
 Do not include copyrighted textbooks, private student records, private business documents, or sensitive files.
 
+This repository includes `sample-handbook.txt`, which contains fake public-school handbook text for testing.
+
 Good examples:
 
 * Public-domain PDFs
